@@ -136,6 +136,11 @@ function main() {
     aB4Setting = document.querySelector("#aB4Setting");
     imgB4Setting = document.querySelector("#imgB4Setting");
 
+    aB5 = document.querySelector("#aB5");
+    imgB5 = document.querySelector("#imgB5");
+    aB5Setting = document.querySelector("#aB5Setting");
+    imgB5Setting = document.querySelector("#imgB5Setting");
+
     // load user prefs
     if (localStorage.getItem("aB1") != null) {
         aB1.href = aB1Setting.value = localStorage.getItem("aB1");
@@ -160,6 +165,9 @@ function main() {
     }
     if (localStorage.getItem("imgB4") != null) {
         imgB4.src = imgB4Setting.value = localStorage.getItem("imgB4");
+    }
+    if (localStorage.getItem("imgB5") != null) {
+        imgB5.src = imgB5Setting.value = localStorage.getItem("imgB5");
     }
 
     // make settings work
