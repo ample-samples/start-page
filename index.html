@@ -9,6 +9,7 @@
     <!-- Load CSS and JS -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+
     
     <!-- Load Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code|Fira+Code:b"> 
@@ -16,9 +17,20 @@
     <!-- Load Charset and set correct viewport -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .center {
+			  text-align: center;
+        padding: 20px;
+		}
+    </style>
 </head>
 
 <body>
+    <div class='center'>
+      <div class='xkcd-embed' data-id='latest'></div>
+
+    <img src="https://imgs.xkcd.com/comics/superintelligent_ais.png">
+    </div>
     <div id="apexContainer">
 
         <div id="headingContainer">(⌐■_■)</div>
@@ -75,6 +87,8 @@
         </div>
 
     </div>
+    <!-- custom script to add xkcd using js-->
+    <script src='js/xkcd-embedder.js'></script>
 </body>
 
 </html>
