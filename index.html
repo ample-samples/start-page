@@ -14,6 +14,9 @@
     <!-- Load Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code|Fira+Code:b"> 
 
+    <!-- xkcd embedder -->
+    <link rel='stylesheet' href='http://xkcd-embedder.fahmidur.us/css/xkcd-embedder.css'/>
+
     <!-- Load Charset and set correct viewport -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -24,15 +27,18 @@
 		}
     </style>
 </head>
-
+<div>
+    <a class="twitter-timeline" data-width="550" data-height="600" data-theme="dark" href="https://twitter.com/xkcdComic?ref_src=twsrc%5Etfw">Tweets by xkcdComic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 <body>
     <div class='center'>
-      <div class='xkcd-embed' data-id='latest'></div>
 
-    <img src="https://imgs.xkcd.com/comics/superintelligent_ais.png">
+    <!--img src="https://imgs.xkcd.com/comics/superintelligent_ais.png"-->
+
+    <!div class='xkcd-embed' data-id='latest'><!/div>
+    <script src='http://xkcd-embedder.fahmidur.us/js/xkcd-embedder.js'></script>
     </div>
     <div id="apexContainer">
-
         <div id="headingContainer">(⌐■_■)</div>
 
         <div id="clockContainer">00:00</div>
@@ -88,7 +94,6 @@
 
     </div>
     <!-- custom script to add xkcd using js-->
-    <script src='js/xkcd-embedder.js'></script>
 </body>
 
 </html>

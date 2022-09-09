@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    background-color: #ffffffff;
     display: flex;
 }
 
@@ -134,3 +135,7 @@ body {
 .inputRange:hover {
     opacity: 1;
 }
+
+
+
+
